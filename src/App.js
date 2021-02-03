@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Home'
+import Profile from './Profile'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <Home></Home>
+          <Profile></Profile>
         </a>
       </header>
     </div>
