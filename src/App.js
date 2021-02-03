@@ -18,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <Home></Home>
-          <Profile></Profile>
+          <Profile text="Practice of props"/> 
         </a>
       </header>
     </div>
