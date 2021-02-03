@@ -3,26 +3,13 @@ import './App.css';
 import Home from './Home'
 import Profile from './Profile'
 import Props from './props'
+import State from './State'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Home></Home>
-          <Profile text="Practice of props"/> 
-          <Props data="Props data"/>
-        </a>
-      </header>
+    <div>
+       <Home/>
+       <State/>
     </div>
   );
 }
