@@ -1,14 +1,10 @@
 import React from 'react'
 
-class Profile extends React.Component{
-  render(){
-    return(
-      <div>
-        <h1>Profile section</h1>
-      </div>
-    )
-  }
-  }
+function Profile(){
+  return <div>
+    <h1>This is functional component</h1>
+  </div>
+}
 
 
 export default Profile;
