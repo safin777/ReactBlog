@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home'
 import Profile from './Profile'
+import Props from './props'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         >
           <Home></Home>
           <Profile text="Practice of props"/> 
+          <Props data="Props data"/>
         </a>
       </header>
     </div>
