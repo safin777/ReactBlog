@@ -16,6 +16,13 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+<<<<<<< HEAD
+=======
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+>>>>>>> ac4f3fd6304058272cf52e015efac03134c6ffa4
   font-size: calc(10px + 2vmin);
   color: white;
 }
